@@ -69,3 +69,67 @@
 .colo{
     color: aliceblue;
 }
+
+
+
+#descuento{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+#caja-1{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: solid rgb(0, 153, 255);
+}
+
+#caja-2{
+    height: 200px;
+    width: 200px;
+    border: solid green;
+}
+
+#caja-3{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: solid yellow;
+}
+
+.catEstudiante{
+    margin: 10px;
+    text-align: center;
+}
+
+.valorDeDescuento{
+    margin: 20px;
+    text-align: center;
+}
+
+.formularioDescuento{
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-form{
+    margin-left: 430px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.totalAPagar{
+    background-color: rgb(21, 212, 212);
+    height: 60px;
+}
+
+#pagarTotal{
+    height: 50px;
+    width: 500px;
+    background-color: aqua;
+}
